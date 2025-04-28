@@ -6,12 +6,13 @@ import MainLayout from './components/layouts/MainLayout';
 import Home from './components/pages/Home';
 import Udaan from './components/pages/Udaan';
 import Subject from './components/pages/Subject';
-import Chapter from './components/pages/Chapter.';
+import Chapter from './components/pages/Chapter';  // Corrected import
 
 function App() {
   return (
     <Router>
       <MainLayout>
+        <Analytics /> {/* Include Vercel Analytics */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/udaan" element={<Udaan />} />
