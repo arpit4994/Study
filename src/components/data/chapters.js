@@ -4,22 +4,22 @@ export const getChaptersForSubject = (subjectId) => {
         {
           id: "m1",
           title: "Real Numbers",
-          lectureCount: 8,
+          lectureCount: 6,
           videos: [
-            { id: "m1v1", title: "Introduction to Real Numbers", embedId: "X1O61MqCLuE" },
-            { id: "m1v2", title: "Euclid's Division Lemma", embedId: "oBOZ2WroiDk" },
-            { id: "m1v3", title: "HCF and LCM", embedId: "BmhKdCHxcfA" },
-            { id: "m1v4", title: "Irrational Numbers", embedId: "C_sshP6_fIw" },
-            { id: "m1v5", title: "Rational Numbers and Their Decimal Expansions", embedId: "l8XZgR3DokE" },
-            { id: "m1v6", title: "Real Numbers Practice Problems", embedId: "fUxMDil0BrY" }
+            { id: "m1v1", title: "Lecture 1", embedId: "C-9jpswxDfE?si=tYpUm1b3Mk-IvWX0" },
+            { id: "m1v2", title: "Lecture 2", embedId: "oBOZ2WroiDk" },
+            { id: "m1v3", title: "Lecture 3", embedId: "P7j4OqTOfl8" },
+            { id: "m1v4", title: "Lecture 4", embedId: "G-a7PIdgTlY" },
+            { id: "m1v5", title: "Lecture 5", embedId: "xWwStBoQSmE" },
+            { id: "m1v6", title: "Lecture 6", embedId: "tow75H2bzQQ" }
           ]
         },
         {
           id: "m2",
           title: "Polynomials",
-          lectureCount: 7,
+          lectureCount: 1,
           videos: [
-            { id: "m2v1", title: "Introduction to Polynomials", embedId: "N8xX8H4MPrQ" },
+            { id: "m2v1", title: "Lecture 1", embedId: "DkucQB5q9fA" },
             { id: "m2v2", title: "Zeroes of a Polynomial", embedId: "QT8g8zRySFo" },
             { id: "m2v3", title: "Factorization of Polynomials", embedId: "k-SKUz1-8pE" },
             { id: "m2v4", title: "Division Algorithm for Polynomials", embedId: "LL_F76mHLi4" },
@@ -30,7 +30,7 @@ export const getChaptersForSubject = (subjectId) => {
         {
           id: "m3",
           title: "Coordinate Geometry",
-          lectureCount: 6,
+          lectureCount: 0,
           videos: [
             { id: "m3v1", title: "Introduction to Coordinate Geometry", embedId: "C9n8JkhfJTQ" },
             { id: "m3v2", title: "Distance Formula", embedId: "0dqMpX1zKv8" },
@@ -45,10 +45,10 @@ export const getChaptersForSubject = (subjectId) => {
         {
           id: "p1",
           title: "Light - Reflection and Refraction",
-          lectureCount: 6,
+          lectureCount: 2,
           videos: [
-            { id: "p1v1", title: "Introduction to Light", embedId: "p3UDSfGyjIg" },
-            { id: "p1v2", title: "Reflection of Light", embedId: "vt-SG3DHjYA" },
+            { id: "p1v1", title: "Introduction to Light", embedId: "ClVnZqf08CE?si=s0Jgle5DcdFXoetL" },
+            { id: "p1v2", title: "Reflection of Light", embedId: "1jdtphKCN4k" },
             { id: "p1v3", title: "Laws of Reflection", embedId: "jsK_kNRMCoE" },
             { id: "p1v4", title: "Refraction of Light", embedId: "UD-BsR2ovpQ" },
             { id: "p1v5", title: "Snell's Law", embedId: "HXmFbeElCkw" },
@@ -92,12 +92,12 @@ export const getChaptersForSubject = (subjectId) => {
           title: "Life Processes",
           lectureCount: 6,
           videos: [
-            { id: "b1v1", title: "Introduction to Life Processes", embedId: "TIV460AQUCk" },
-            { id: "b1v2", title: "Nutrition in Plants", embedId: "gLcsnrGHMGw" },
-            { id: "b1v3", title: "Nutrition in Animals", embedId: "hYBk-Cnjus0" },
-            { id: "b1v4", title: "Respiration", embedId: "LCfJ_2ehECY" },
-            { id: "b1v5", title: "Transportation in Plants and Animals", embedId: "9JvP_16wNqA" },
-            { id: "b1v6", title: "Excretion", embedId: "GXqBq-3AxYw" }
+            { id: "b1v1", title: "Lecture 1", embedId: "Hf5m7jSZtLY?si=BZT6WHra3H3eRz0K" },
+            { id: "b1v2", title: "Lecture 2", embedId: "470ZHqQrB28" },
+            { id: "b1v3", title: "Lecture 3", embedId: "XsAsdfKZRdI" },
+            { id: "b1v4", title: "Lecture 4", embedId: "LrfFWi6c78z8" },
+            { id: "b1v5", title: "Lecture 5", embedId: "tMzg6Uz7Zv0" },
+            { id: "b1v6", title: "Lecture 6", embedId: "oZHojqUyg84" }
           ]
         }
       ],
@@ -107,7 +107,7 @@ export const getChaptersForSubject = (subjectId) => {
           title: "The Rise of Nationalism in Europe",
           lectureCount: 6,
           videos: [
-            { id: "h1v1", title: "Introduction to Nationalism", embedId: "EIz7nY3A0lA" },
+            { id: "h1v1", title: "Introduction to Nationalism", embedId: "v=anjfbI_bZco" },
             { id: "h1v2", title: "The French Revolution", embedId: "KYC2GU3WBNE" },
             { id: "h1v3", title: "The Making of Nationalism in Europe", embedId: "Yk9T47-ESLw" },
             { id: "h1v4", title: "The Age of Revolutions", embedId: "a4voJ4Wdf4Y" },
