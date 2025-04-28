@@ -77,12 +77,12 @@ export const getChaptersForSubject = (subjectId) => {
           title: "Chemical Reactions and Equations",
           lectureCount: 6,
           videos: [
-            { id: "c1v1", title: "Introduction to Chemical Reactions", embedId: "sK5nJuDigiY" },
-            { id: "c1v2", title: "Writing Chemical Equations", embedId: "U4_1Qb_RiYM" },
-            { id: "c1v3", title: "Types of Chemical Reactions", embedId: "FzA-jpBq6ME" },
-            { id: "c1v4", title: "Oxidation and Reduction", embedId: "5rtJdjas-mY" },
-            { id: "c1v5", title: "Effects of Oxidation in Daily Life", embedId: "QNGp3q5odPs" },
-            { id: "c1v6", title: "Balancing Chemical Equations", embedId: "_B735turDoM" }
+            { id: "c1v1", title: "Lecture 1", embedId: "" },
+            // { id: "c1v2", title: "Writing Chemical Equations", embedId: "U4_1Qb_RiYM" },
+            // { id: "c1v3", title: "Types of Chemical Reactions", embedId: "FzA-jpBq6ME" },
+            // { id: "c1v4", title: "Oxidation and Reduction", embedId: "5rtJdjas-mY" },
+            // { id: "c1v5", title: "Effects of Oxidation in Daily Life", embedId: "QNGp3q5odPs" },
+            // { id: "c1v6", title: "Balancing Chemical Equations", embedId: "_B735turDoM" }
           ]
         }
       ],
@@ -107,12 +107,12 @@ export const getChaptersForSubject = (subjectId) => {
           title: "The Rise of Nationalism in Europe",
           lectureCount: 6,
           videos: [
-            { id: "h1v1", title: "Introduction to Nationalism", embedId: "v=anjfbI_bZco" },
-            { id: "h1v2", title: "The French Revolution", embedId: "KYC2GU3WBNE" },
-            { id: "h1v3", title: "The Making of Nationalism in Europe", embedId: "Yk9T47-ESLw" },
-            { id: "h1v4", title: "The Age of Revolutions", embedId: "a4voJ4Wdf4Y" },
-            { id: "h1v5", title: "The Unification of Italy", embedId: "MkbVK6D029w" },
-            { id: "h1v6", title: "The Unification of Germany", embedId: "ME_tV4jZEU0" }
+            { id: "h1v1", title: "Lecture 1", embedId: "anjfbI_bZco?si=tNTI80l0iX0xjXMY" },
+            { id: "h1v2", title: "Lecture 2", embedId: "CBGy6vIHrqM" },
+            { id: "h1v3", title: "Lecture 3", embedId: "D6jrrF7HcUQ" },
+            { id: "h1v4", title: "Lecture 4", embedId: "-JDf-pmqE1I" },
+            { id: "h1v5", title: "Lecture 5", embedId: "MkbVK6D029w" },
+            { id: "h1v6", title: "Lecture 6", embedId: "ME_tV4jZEU0" }
           ]
         }
       ],
@@ -182,7 +182,7 @@ export const getChaptersForSubject = (subjectId) => {
           title: "First Flight",
           lectureCount: 6,
           videos: [
-            { id: "en1v1", title: "A Letter to God", embedId: "nHEXpNzCdN4" },
+            { id: "en1v1", title: "A Letter to God", embedId: "LiN8gE1Ded4" },
             { id: "en1v2", title: "Dust of Snow & Fire and Ice", embedId: "KBk6OMiGV_o" },
             { id: "en1v3", title: "Nelson Mandela: Long Walk to Freedom", embedId: "IX_MZqLcSYg" },
             { id: "en1v4", title: "A Tiger in the Zoo", embedId: "Kz7kHgRx7lw" },
