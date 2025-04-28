@@ -6,7 +6,7 @@ import MainLayout from './components/layouts/MainLayout';
 import Home from './components/pages/Home';
 import Udaan from './components/pages/Udaan';
 import Subject from './components/pages/Subject';
-import Chapter from './components/pages/Chapter';  // Corrected import
+import Chapter from './components/pages/Chapter.';
 
 function App() {
   return (
