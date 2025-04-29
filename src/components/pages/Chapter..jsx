@@ -8,7 +8,7 @@ import { subjects } from '../data/subjects';
 
 const Chapter = () => {
   const { subjectId, chapterId } = useParams();
-  
+
   const subject = subjects.find(s => s.id === subjectId);
   const chapters = getChaptersForSubject(subjectId);
   const chapter = chapters.find(c => c.id === chapterId);
