@@ -7,7 +7,7 @@ export const getChaptersForSubject = (subjectId) => {
         lectureCount: 6,
         notes: "Real numbers include all rational and irrational numbers. This chapter covers properties of real numbers, operations, and their applications in various mathematical contexts.",
         videos: [
-          { id: "m1v1", title: "Lecture 1", embedId: "C-9jpswxDfE?si=tYpUm1b3Mk-IvWX0", notes: "Introduction to real numbers and their properties. This lecture covers the basic definitions and concepts." },
+          { id: "m1v1", title: "Lecture 1", embedId: "C-9jpswxDfE?si=tYpUm1b3Mk-IvWX0", notes: 'as soon as possible i will do that'},
           { id: "m1v2", title: "Lecture 2", embedId: "oBOZ2WroiDk", notes: "Rational numbers and their representations as terminating or repeating decimals." },
           { id: "m1v3", title: "Lecture 3", embedId: "P7j4OqTOfl8", notes: "Irrational numbers and their decimal expansions. Properties of irrational numbers." },
           { id: "m1v4", title: "Lecture 4", embedId: "G-a7PIdgTlY", notes: "Euclid's division lemma and algorithm. Step-by-step application of the division algorithm." },
@@ -18,11 +18,11 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "m2",
         title: "Polynomials",
-        lectureCount: 1,
+        lectureCount: 2,
         notes: "Polynomials are expressions with variables and coefficients. This chapter covers operations on polynomials, finding zeros, and understanding fundamental theorems related to polynomials.",
         videos: [
           { id: "m2v1", title: "Lecture 1", embedId: "DkucQB5q9fA", notes: "Introduction to polynomials, their types and basic operations. Understanding degree of polynomials." },
-          { id: "m2v2", title: "Zeroes of a Polynomial", embedId: "QT8g8zRySFo", notes: "Understanding zeroes/roots of polynomials. Relationship between zeroes and coefficients." },
+          { id: "m2v2", title: "Lecture 2", embedId: "dUdDOBbBUwM?si=GYDeaKzDWvsyDoh5", notes: "Understanding zeroes/roots of polynomials. Relationship between zeroes and coefficients." },
           { id: "m2v3", title: "Factorization of Polynomials", embedId: "k-SKUz1-8pE", notes: "Methods for factoring polynomials. Using factorization to find solutions." },
           { id: "m2v4", title: "Division Algorithm for Polynomials", embedId: "LL_F76mHLi4", notes: "Understanding the division algorithm for polynomials. Finding quotient and remainder." },
           { id: "m2v5", title: "Remainder Theorem", embedId: "SDQXGBhjJSI", notes: "The remainder theorem and its applications. Finding remainder without actual division." },
@@ -62,7 +62,7 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "p2", 
         title: "Electricity",
-        lectureCount: 8,
+        lectureCount: 0,
         notes: "The electricity chapter covers electric current, potential difference, resistance, and circuits. Learn about Ohm's law, series and parallel connections, and the heating effect of current.",
         videos: [
           { id: "p2v1", title: "Electric Current and Circuit", embedId: "9PuQlJjA2r4" },
@@ -80,11 +80,11 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "c1",
         title: "Chemical Reactions and Equations",
-        lectureCount: 1,
+        lectureCount: 2,
         notes: "This chapter explores the fundamentals of chemical reactions, how to write and balance chemical equations, and understand different types of chemical reactions.",
         videos: [
           { id: "c1v1", title: "Lecture 1", embedId: "beShhD5mvPw" },
-          // { id: "c1v2", title: "Writing Chemical Equations", embedId: "U4_1Qb_RiYM" },
+          { id: "c1v2", title: "Lecture 2", embedId: "0iMyw26ySMM" },
           // { id: "c1v3", title: "Types of Chemical Reactions", embedId: "FzA-jpBq6ME" },
           // { id: "c1v4", title: "Oxidation and Reduction", embedId: "5rtJdjas-mY" },
           // { id: "c1v5", title: "Effects of Oxidation in Daily Life", embedId: "QNGp3q5odPs" },
@@ -102,7 +102,7 @@ export const getChaptersForSubject = (subjectId) => {
           { id: "b1v1", title: "Lecture 1", embedId: "Hf5m7jSZtLY?si=BZT6WHra3H3eRz0K" },
           { id: "b1v2", title: "Lecture 2", embedId: "470ZHqQrB28" },
           { id: "b1v3", title: "Lecture 3", embedId: "XsAsdfKZRdI" },
-          { id: "b1v4", title: "Lecture 4", embedId: "LrfFWi6c78z8" },
+          { id: "b1v4", title: "Lecture 4", embedId: "rfFWi6c78z8?si=z36l9vjVpQcBAOrZ" },
           { id: "b1v5", title: "Lecture 5", embedId: "tMzg6Uz7Zv0" },
           { id: "b1v6", title: "Lecture 6", embedId: "oZHojqUyg84" }
         ]
@@ -120,7 +120,7 @@ export const getChaptersForSubject = (subjectId) => {
           { id: "h1v3", title: "Lecture 3", embedId: "D6jrrF7HcUQ" },
           { id: "h1v4", title: "Lecture 4", embedId: "-JDf-pmqE1I" },
           { id: "h1v5", title: "Lecture 5", embedId: "2FPWXRGSi4o" },
-          { id: "h1v6", title: "Lecture 6", embedId: "ME_tV4jZEU0" }
+          { id: "h1v6", title: "Lecture 6", embedId: "cOcRTNozPKI" }
         ]
       }
     ],
@@ -175,16 +175,16 @@ export const getChaptersForSubject = (subjectId) => {
     "hindi": [
       {
         id: "hn1",
-        title: "क्षितिज भाग 2",
-        lectureCount: 6,
+        title: "Kritika",
+        lectureCount: 1,
         notes: "क्षितिज भाग 2 हिंदी साहित्य का एक महत्वपूर्ण संग्रह है। इसमें सूरदास, तुलसीदास, जयशंकर प्रसाद जैसे प्रसिद्ध कवियों की रचनाएँ शामिल हैं।",
         videos: [
-          { id: "hn1v1", title: "सूरदास - पद", embedId: "NpOdYwnRU8E" },
-          { id: "hn1v2", title: "तुलसीदास - राम-लक्ष्मण-परशुराम संवाद", embedId: "VsZg9UlNEhw" },
-          { id: "hn1v3", title: "देव - भ्रमरगीत", embedId: "mMLUlNnAk_g" },
-          { id: "hn1v4", title: "जयशंकर प्रसाद - आत्मकथ्य", embedId: "xr6qlRZdTcs" },
-          { id: "hn1v5", title: "सूर्यकांत त्रिपाठी निराला - उत्साह और अट नहीं रही", embedId: "Z5NAx3xb9Os" },
-          { id: "hn1v6", title: "नागार्जुन - यह दंतुरित मुसकान", embedId: "8EjJGMK9c7w" }
+          { id: "hn1v1", title: "Mata Ka Anchal", embedId: "Ankz-CJDdNA?si=kdULQutYByfeSOI2" },
+          // { id: "hn1v2", title: "तुलसीदास - राम-लक्ष्मण-परशुराम संवाद", embedId: "VsZg9UlNEhw" },
+          // { id: "hn1v3", title: "देव - भ्रमरगीत", embedId: "mMLUlNnAk_g" },
+          // { id: "hn1v4", title: "जयशंकर प्रसाद - आत्मकथ्य", embedId: "xr6qlRZdTcs" },
+          // { id: "hn1v5", title: "सूर्यकांत त्रिपाठी निराला - उत्साह और अट नहीं रही", embedId: "Z5NAx3xb9Os" },
+          // { id: "hn1v6", title: "नागार्जुन - यह दंतुरित मुसकान", embedId: "8EjJGMK9c7w" }
         ]
       }
     ],
@@ -192,15 +192,10 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "en1",
         title: "First Flight",
-        lectureCount: 6,
+        lectureCount: 1,
         notes: "First Flight is a collection of prose and poetry. This chapter includes stories and poems that explore various themes like freedom, nature, adventure, and personal growth.",
         videos: [
-          { id: "en1v1", title: "A Letter to God", embedId: "LiN8gE1Ded4" },
-          { id: "en1v2", title: "Dust of Snow & Fire and Ice", embedId: "KBk6OMiGV_o" },
-          { id: "en1v3", title: "Nelson Mandela: Long Walk to Freedom", embedId: "IX_MZqLcSYg" },
-          { id: "en1v4", title: "A Tiger in the Zoo", embedId: "Kz7kHgRx7lw" },
-          { id: "en1v5", title: "His First Flight", embedId: "A1gJyqnQHxE" },
-          { id: "en1v6", title: "Black Aeroplane", embedId: "xM1bpVaHJu0" }
+          { id: "en1v1", title: "A Letter to God", embedId: "LiN8gE1Ded4?si=ryqXsGJj5DnAo_Gd" },
         ]
       }
     ],
@@ -208,15 +203,10 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "hg1",
         title: "व्याकरण",
-        lectureCount: 6,
+        lectureCount: 1,
         notes: "हिंदी व्याकरण भाषा की आधारशिला है। इस अध्याय में शब्द, पद, उपसर्ग, प्रत्यय, समास, वाक्य भेद और अलंकार जैसे महत्वपूर्ण विषयों का अध्ययन किया जाएगा।",
         videos: [
-          { id: "hg1v1", title: "शब्द और पद", embedId: "4-kf4nGlFpQ" },
-          { id: "hg1v2", title: "अनुस्वार और अनुनासिक", embedId: "FyqZR-SJXik" },
-          { id: "hg1v3", title: "उपसर्ग और प्रत्यय", embedId: "O1XbpRpGQoY" },
-          { id: "hg1v4", title: "समास", embedId: "jH9ZsF8Qf3o" },
-          { id: "hg1v5", title: "वाक्य भेद", embedId: "r8ZX5XveFHQ" },
-          { id: "hg1v6", title: "अलंकार", embedId: "E8oHpvJA_wA" }
+          { id: "hg1v1", title: "Alankar", embedId: "QM-yuJ-IJco?si=RG9aMYJWi8gvEJzY" },
         ]
       }
     ]
