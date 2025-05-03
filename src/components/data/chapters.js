@@ -8,7 +8,7 @@ export const getChaptersForSubject = (subjectId) => {
         notes: "Real numbers include all rational and irrational numbers. This chapter covers properties of real numbers, operations, and their applications in various mathematical contexts.",
         videos: [
           { id: "m1v1", title: "Lecture 1", embedId: "C-9jpswxDfE?si=tYpUm1b3Mk-IvWX0", notes: 'as soon as possible i will do that'},
-          { id: "m1v2", title: "Lecture 2", embedId: "oBOZ2WroiDk", notes: "Rational numbers and their representations as terminating or repeating decimals." },
+          { id: "m1v2", title: "Lecture 2", embedId: "aXDABF1urLc?si=Bc-pnczhorTi2hOH", notes: "Rational numbers and their representations as terminating or repeating decimals." },
           { id: "m1v3", title: "Lecture 3", embedId: "P7j4OqTOfl8", notes: "Irrational numbers and their decimal expansions. Properties of irrational numbers." },
           { id: "m1v4", title: "Lecture 4", embedId: "G-a7PIdgTlY", notes: "Euclid's division lemma and algorithm. Step-by-step application of the division algorithm." },
           { id: "m1v5", title: "Lecture 5", embedId: "xWwStBoQSmE", notes: "Fundamental theorem of arithmetic. Prime factorization and its uniqueness." },
@@ -18,31 +18,28 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "m2",
         title: "Polynomials",
-        lectureCount: 2,
+        lectureCount: 3,
         notes: "Polynomials are expressions with variables and coefficients. This chapter covers operations on polynomials, finding zeros, and understanding fundamental theorems related to polynomials.",
         videos: [
           { id: "m2v1", title: "Lecture 1", embedId: "DkucQB5q9fA", notes: "Introduction to polynomials, their types and basic operations. Understanding degree of polynomials." },
           { id: "m2v2", title: "Lecture 2", embedId: "dUdDOBbBUwM?si=GYDeaKzDWvsyDoh5", notes: "Understanding zeroes/roots of polynomials. Relationship between zeroes and coefficients." },
-          { id: "m2v3", title: "Factorization of Polynomials", embedId: "k-SKUz1-8pE", notes: "Methods for factoring polynomials. Using factorization to find solutions." },
-          { id: "m2v4", title: "Division Algorithm for Polynomials", embedId: "LL_F76mHLi4", notes: "Understanding the division algorithm for polynomials. Finding quotient and remainder." },
-          { id: "m2v5", title: "Remainder Theorem", embedId: "SDQXGBhjJSI", notes: "The remainder theorem and its applications. Finding remainder without actual division." },
-          { id: "m2v6", title: "Factor Theorem", embedId: "FQINh0QtjO8", notes: "Understanding the factor theorem. Relationship between factors and zeroes of polynomials." }
+          { id: "m2v3", title: "Lecture 3", embedId: "xbZzPWJFL88", notes: "Methods for factoring polynomials. Using factorization to find solutions." },
         ]
       },
-      {
-        id: "m3",
-        title: "Coordinate Geometry",
-        lectureCount: 0,
-        notes: "Coordinate geometry combines algebra and geometry using the coordinate system. This chapter explores distance formula, section formula, and area calculations in the coordinate plane.",
-        videos: [
-          { id: "m3v1", title: "Introduction to Coordinate Geometry", embedId: "C9n8JkhfJTQ" },
-          { id: "m3v2", title: "Distance Formula", embedId: "0dqMpX1zKv8" },
-          { id: "m3v3", title: "Section Formula", embedId: "a44HwuBnm8I" },
-          { id: "m3v4", title: "Area of a Triangle", embedId: "qWI8KLv6M0A" },
-          { id: "m3v5", title: "Coordinate Geometry Applications", embedId: "1Z-Rt2NK_Zs" },
-          { id: "m3v6", title: "Problem Solving in Coordinate Geometry", embedId: "FU80sHIdirM" }
-        ]
-      }
+      // {
+      //   id: "m3",
+      //   title: "Coordinate Geometry",
+      //   lectureCount: 0,
+      //   notes: "Coordinate geometry combines algebra and geometry using the coordinate system. This chapter explores distance formula, section formula, and area calculations in the coordinate plane.",
+      //   videos: [
+      //     { id: "m3v1", title: "Introduction to Coordinate Geometry", embedId: "C9n8JkhfJTQ" },
+      //     { id: "m3v2", title: "Distance Formula", embedId: "0dqMpX1zKv8" },
+      //     { id: "m3v3", title: "Section Formula", embedId: "a44HwuBnm8I" },
+      //     { id: "m3v4", title: "Area of a Triangle", embedId: "qWI8KLv6M0A" },
+      //     { id: "m3v5", title: "Coordinate Geometry Applications", embedId: "1Z-Rt2NK_Zs" },
+      //     { id: "m3v6", title: "Problem Solving in Coordinate Geometry", embedId: "FU80sHIdirM" }
+      //   ]
+      // }
     ],
     "physics": [
       {
@@ -96,15 +93,16 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "b1",
         title: "Life Processes",
-        lectureCount: 6,
+        lectureCount: 7,
         notes: "Life processes are the vital functions that maintain living organisms. This chapter covers nutrition, respiration, transportation, and excretion in various organisms.",
         videos: [
           { id: "b1v1", title: "Lecture 1", embedId: "Hf5m7jSZtLY?si=BZT6WHra3H3eRz0K" },
-          { id: "b1v2", title: "Lecture 2", embedId: "470ZHqQrB28" },
+          { id: "b1v2", title: "Lecture 2", embedId: "qBIxDAbI#xjpjYsxJczNymZuHNoz-3JbupmEuKnw5ZWLJBTuOdVU" },
           { id: "b1v3", title: "Lecture 3", embedId: "XsAsdfKZRdI" },
           { id: "b1v4", title: "Lecture 4", embedId: "rfFWi6c78z8?si=z36l9vjVpQcBAOrZ" },
           { id: "b1v5", title: "Lecture 5", embedId: "tMzg6Uz7Zv0" },
-          { id: "b1v6", title: "Lecture 6", embedId: "oZHojqUyg84" }
+          { id: "b1v6", title: "Lecture 6", embedId: "oZHojqUyg84" },
+          { id: "b1v7", title: "Lecture 7", embedId: "pZ7OMFEsdjw" },
         ]
       }
     ],
@@ -128,7 +126,7 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "g1",
         title: "Resources and Development",
-        lectureCount: 6,
+        lectureCount: 0,
         notes: "This chapter examines various resources, their classification, development, and conservation. It covers land resources, soil resources, and sustainable resource management.",
         videos: [
           { id: "g1v1", title: "Types of Resources", embedId: "E-M5cN288Gc" },
@@ -144,7 +142,7 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "cv1",
         title: "Power Sharing",
-        lectureCount: 6,
+        lectureCount: 0,
         notes: "Power sharing is the distribution of power among different organs of government. This chapter examines various forms of power sharing with case studies of Belgium and Sri Lanka.",
         videos: [
           { id: "cv1v1", title: "Introduction to Power Sharing", embedId: "YwXJxGlb4Y0" },
@@ -160,7 +158,7 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "e1",
         title: "Development",
-        lectureCount: 6,
+        lectureCount: 0,
         notes: "Development refers to the progress of a country in terms of economic growth, quality of life, and sustainability. This chapter covers various aspects and indicators of development.",
         videos: [
           { id: "e1v1", title: "Introduction to Development", embedId: "7DbfMNdBIOk" },
@@ -196,6 +194,7 @@ export const getChaptersForSubject = (subjectId) => {
         notes: "First Flight is a collection of prose and poetry. This chapter includes stories and poems that explore various themes like freedom, nature, adventure, and personal growth.",
         videos: [
           { id: "en1v1", title: "A Letter to God", embedId: "LiN8gE1Ded4?si=ryqXsGJj5DnAo_Gd" },
+          { id: "en1v2", title: "The Triump Of Surgery", embedId: "_aDKfbf9MR0" },
         ]
       }
     ],
