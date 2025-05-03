@@ -7,12 +7,14 @@ import Home from './components/pages/Home';
 import Udaan from './components/pages/Udaan';
 import Subject from './components/pages/Subject';
 import Chapter from './components/pages/Chapter.';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
     <Router>
       <MainLayout>
-        <Analytics /> {/* Include Vercel Analytics */}
+        <Analytics />
+        <SpeedInsights/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/udaan" element={<Udaan />} />
