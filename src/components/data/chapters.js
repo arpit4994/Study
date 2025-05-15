@@ -44,14 +44,14 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "p1",
         title: "Light - Reflection and Refraction",
-        lectureCount: 4,
+        lectureCount: 6,
         notes: "Trying to provide",
         videos: [
           { id: "p1v1", title: "Lecture 1", embedId: "ClVnZqf08CE?si=s0Jgle5DcdFXoetL", notes: "Trying to provide" },
           { id: "p1v2", title: "Lecture 2", embedId: "1jdtphKCN4k", notes: "Trying to provide" },
           { id: "p1v3", title: "Lecture 3", embedId: "jsK_kNRMCoE", notes: "Trying to provide" },
-          { id: "p1v4", title: "Lecture 4", embedId: "QJ6ofa7xEGM?si=PC6rmIB28s6yumUU", notes: "Trying to provide" },
-          { id: "p1v5", title: "Lecture 5", embedId: "HXmFbeElCkw", notes: "Trying to provide" },
+          { id: "p1v4", title: "Lecture 4", embedId: "-vM4zS7ZSBs", notes: "Trying to provide" },
+          { id: "p1v5", title: "Lecture 5", embedId: "XOIdknBsXLc", notes: "Trying to provide" },
           { id: "p1v6", title: "Lecture 6", embedId: "x5aMhHrqmfU", notes: "Trying to provide" }
         ]
       },
@@ -143,7 +143,7 @@ export const getChaptersForSubject = (subjectId) => {
         lectureCount: 2,
         notes: "Trying to provide",
         videos: [
-          { id: "cv1v1", title: "Lecture 1", embedId: "", notes: "Trying to provide" },
+          { id: "cv1v1", title: "Lecture 1", embedId: "GrW9PQiFTkc", notes: "Trying to provide" },
           { id: "cv1v2", title: "Lecture 2", embedId: "FDCHornHvKc", notes: "Trying to provide" },
         ]
       }
