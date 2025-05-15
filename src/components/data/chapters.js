@@ -18,13 +18,25 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "m2",
         title: "Polynomials",
-        lectureCount: 4,
+        lectureCount: 6,
         notes: "Trying to provide",
         videos: [
           { id: "m2v1", title: "Lecture 1", embedId: "DkucQB5q9fA", notes: "Trying to provide" },
           { id: "m2v2", title: "Lecture 2", embedId: "dUdDOBbBUwM?si=GYDeaKzDWvsyDoh5", notes: "Trying to provide" },
           { id: "m2v3", title: "Lecture 3", embedId: "xbZzPWJFL88", notes: "Trying to provide" },
-          { id: "m2v3", title: "Lecture 4", embedId: "xOdg4RipkO0?si=RW0reoRaoTVI8uqg", notes: "Trying to provide" },
+          { id: "m2v4", title: "Lecture 4", embedId: "xOdg4RipkO0?si=RW0reoRaoTVI8uqg", notes: "Trying to provide" },
+          { id: "m2v5", title: "Lecture 5", embedId: "yHnshAM9qAU", notes: "Trying to provide" },
+          { id: "m2v6", title: "Lecture 6", embedId: "IztF5bGHfC8", notes: "Trying to provide" },
+        ]
+      },
+      {
+        id: "m3",
+        title: "Linear Equation In Two Variable",
+        lectureCount: 2,
+        notes: "Trying to provide",
+        videos: [
+          { id: "m3v1", title: "Lecture 1", embedId: "rwdGOUq-fyA", notes: "Trying to provide" },
+          { id: "m3v2", title: "Lecture 2", embedId: "wuaJGiT2rBM", notes: "Trying to provide" },
         ]
       }
     ],
@@ -40,7 +52,7 @@ export const getChaptersForSubject = (subjectId) => {
           { id: "p1v3", title: "Lecture 3", embedId: "jsK_kNRMCoE", notes: "Trying to provide" },
           { id: "p1v4", title: "Lecture 4", embedId: "QJ6ofa7xEGM?si=PC6rmIB28s6yumUU", notes: "Trying to provide" },
           { id: "p1v5", title: "Lecture 5", embedId: "HXmFbeElCkw", notes: "Trying to provide" },
-          { id: "p1v6", title: "Lecture 6", embedId: "kcRUxzr6mWs", notes: "Trying to provide" }
+          { id: "p1v6", title: "Lecture 6", embedId: "x5aMhHrqmfU", notes: "Trying to provide" }
         ]
       },
       {
@@ -62,11 +74,13 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "c1",
         title: "Chemical Reactions and Equations",
-        lectureCount: 2,
+        lectureCount: 4,
         notes: "Trying to provide",
         videos: [
           { id: "c1v1", title: "Lecture 1", embedId: "beShhD5mvPw", notes: "Trying to provide" },
-          { id: "c1v2", title: "Lecture 2", embedId: "0iMyw26ySMM", notes: "Trying to provide" }
+          { id: "c1v2", title: "Lecture 2", embedId: "0iMyw26ySMM", notes: "Trying to provide" },
+          { id: "c1v3", title: "Lecture 3", embedId: "S4liNALA6Xg", notes: "Trying to provide" },
+          { id: "c1v4", title: "Lecture 4", embedId: "y2JDeZlW3FM", notes: "Trying to provide" },
         ]
       }
     ],
@@ -74,7 +88,7 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "b1",
         title: "Life Processes",
-        lectureCount: 8,
+        lectureCount: 10,
         notes: "Trying to provide",
         videos: [
           { id: "b1v1", title: "Lecture 1", embedId: "Hf5m7jSZtLY?si=BZT6WHra3H3eRz0K", notes: "Trying to provide" },
@@ -84,7 +98,9 @@ export const getChaptersForSubject = (subjectId) => {
           { id: "b1v5", title: "Lecture 5", embedId: "tMzg6Uz7Zv0", notes: "Trying to provide" },
           { id: "b1v6", title: "Lecture 6", embedId: "oZHojqUyg84", notes: "Trying to provide" },
           { id: "b1v7", title: "Lecture 7", embedId: "pZ7OMFEsdjw", notes: "Trying to provide" },
-          { id: "b1v8", title: "Lecture 8", embedId: "F5KALzlAnqc?si=o1CRRgpVEYzNqyZH", notes: "Trying to provide" }
+          { id: "b1v8", title: "Lecture 8", embedId: "F5KALzlAnqc?si=o1CRRgpVEYzNqyZH", notes: "Trying to provide" },
+          { id: "b1v9", title: "Lecture 9", embedId: "", notes: "Trying to provide" },
+          { id: "b1v10", title: "Lecture 10", embedId: "v81qHdqEwDg", notes: "Trying to provide" },
         ]
       }
     ],
@@ -124,15 +140,11 @@ export const getChaptersForSubject = (subjectId) => {
       {
         id: "cv1",
         title: "Power Sharing",
-        lectureCount: 0,
+        lectureCount: 2,
         notes: "Trying to provide",
         videos: [
-          { id: "cv1v1", title: "Introduction to Power Sharing", embedId: "YwXJxGlb4Y0", notes: "Trying to provide" },
-          { id: "cv1v2", title: "Forms of Power Sharing", embedId: "vRbZ2QEgUmE", notes: "Trying to provide" },
-          { id: "cv1v3", title: "Case Study: Belgium", embedId: "HQoYPfElYcI", notes: "Trying to provide" },
-          { id: "cv1v4", title: "Case Study: Sri Lanka", embedId: "EW-oe5pvIQo", notes: "Trying to provide" },
-          { id: "cv1v5", title: "Majoritarianism vs Power Sharing", embedId: "NEMRsvIOjds", notes: "Trying to provide" },
-          { id: "cv1v6", title: "Importance of Power Sharing", embedId: "uPqJPshkZeg", notes: "Trying to provide" }
+          { id: "cv1v1", title: "Lecture 1", embedId: "", notes: "Trying to provide" },
+          { id: "cv1v2", title: "Lecture 2", embedId: "FDCHornHvKc", notes: "Trying to provide" },
         ]
       }
     ],

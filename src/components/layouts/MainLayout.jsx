@@ -10,8 +10,8 @@ const MainLayout = ({ children }) => {
       </main>
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto px-4 text-center">
-          <p>© 2025 Class Xth Udaan. All rights reserved.</p>
-          <p className="text-gray-400 mt-2">Developed by Arpit Agarwal</p>
+          <p>© 2025 Class Xth Udaan. Credits Goes to Physics Wallah</p>
+          <p className="text-gray-400 mt-2">Presented by Arpit Agarwal</p>
         </div>
       </footer>
     </div>
